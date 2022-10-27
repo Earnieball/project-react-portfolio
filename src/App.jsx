@@ -1,14 +1,33 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Header } from './Components/Header'
-import Footer from './Components/Footer'
-import Main from './Components/Main'
+import { ProfileInfo } from './Components/ProfileInfo'
+import { MainProjects } from './Components/MainProjects'
+import { MyThoughts } from './Components/MyThoughts'
+import { Skills } from './Components/Skills'
+import { More } from './Components/More'
+import { Footer } from './Components/Footer'
+
+const MainContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+`
 
 export const App = () => {
   return (
-    <div>
+    <>
       <Header />
-      <Main />
-      <Footer />
-    </div>
+      <MainContainer>
+        <ProfileInfo />
+        <MainProjects />
+        <MyThoughts />
+        <Skills />
+        <More />
+        <Footer />
+      </MainContainer>
+    </>
   )
 }

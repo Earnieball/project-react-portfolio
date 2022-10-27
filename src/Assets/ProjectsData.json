@@ -1,0 +1,110 @@
+[
+    {
+      "title": "",
+      "id": "1",
+      "image": "",
+      "netlify": "",
+      "github": "",
+      "description": "",
+      "tools": []
+    },
+    {
+      "title": "",
+      "id": "2",
+      "image": "",
+      "netlify": "",
+      "github": "",
+      "description": "",
+      "tools": []
+    },
+    {
+      "title": "",
+      "id": "3",
+      "image": "",
+      "netlify": "",
+      "github": "",
+      "description": "",
+      "tools": []
+    },
+    {
+      "title": "",
+      "id": "4",
+      "image": "",
+      "netlify": "",
+      "github": "",
+      "description": "",
+      "tools": []
+    },
+    {
+      "title": "",
+      "id": "5",
+      "image": "",
+      "netlify": "",
+      "github": "",
+      "description": "",
+      "tools": []
+    },
+    {
+      "title": "",
+      "id": "6",
+      "image": "",
+      "netlify": "",
+      "github": "",
+      "description": "",
+      "tools": [""]
+    },
+    {
+      "title": "",
+      "id": "7",
+      "image": "",
+      "netlify": "",
+      "github": "",
+      "description": "",
+      "tools": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Weather App",
+      "id": "8",
+      "image": "https://imgur.com/AUTXE2y",
+      "netlify": "https://fint-vader.netlify.app/",
+      "github": "https://github.com/Earnieball/project-weather-app",
+      "description": "An app that updates the weather-forecast using an API",
+      "tools": ["API", "JavaScript", "HTML"]
+    },
+    {
+      "title": "Guess Who",
+      "id": "9",
+      "image": "https://imgbox.com/fwNa3jMN",
+      "netlify": "https://benevolent-cucurucho-37eea2.netlify.app/",
+      "github": "https://github.com/Earnieball/project-guess-who",
+      "description": "A guessing game made in Javascript.",
+      "tools": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Chatbot",
+      "id": "10",
+      "image": "https://thumbs2.imgbox.com/a7/c5/fwNa3jMN_t.jpg",
+      "netlify": "https://monumental-dango-9cb66a.netlify.app/",
+      "github": "https://github.com/Earnieball/project-chatbot",
+      "description": "Chatbot made in JavaScript",
+      "tools": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "title": "Business site",
+      "id": "11",
+      "image": "",
+      "netlify": "https://lustrous-beijinho-b1994a.netlify.app/",
+      "github": "https://github.com/Earnieball/project-business-site",
+      "description": "Our first group-project.",
+      "tools": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "News Site - My application for Technigo",
+      "id": "12",
+      "image": "https://i.imgur.com/a/c38NKyA",
+      "netlify": "https://62eff0400e3e5c33a68b162a--legendary-clafoutis-55c090.netlify.app/",
+      "github": "https://github.com/Earnieball/project-news-site",
+      "description": "A basic app done in HTML and CSS",
+      "tools": ["HTML", "CSS"]
+    }
+  ]
