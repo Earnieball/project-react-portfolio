@@ -7,7 +7,7 @@ import {
   faStackOverflow
 } from '@fortawesome/free-brands-svg-icons'
 import {
-  ArticleOptionOne,
+  ArticleOptionTwo,
   InsideContainer,
   ColoredTitleWrapper,
   ColoredTitle
@@ -32,7 +32,7 @@ const IconContainer = styled.div`
 
 export const More = () => {
   return (
-    <ArticleOptionOne>
+    <ArticleOptionTwo>
       <InsideContainer>
         <ColoredTitleWrapper>
           <ColoredTitle>For more</ColoredTitle>
@@ -70,6 +70,6 @@ export const More = () => {
           </IconContainer>
         </IconWrapperBottom>
       </InsideContainer>
-    </ArticleOptionOne>
+    </ArticleOptionTwo>
   )
 }

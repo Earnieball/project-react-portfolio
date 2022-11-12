@@ -3,11 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import styled from 'styled-components'
 import {
-  ArticleOptionOne,
+
   ArticleOptionTwo,
   InsideContainer,
   ColoredTitle,
-  ColoredTitleWrapper
+  ColoredTitleWrapper,
+  ArticleOptionFour
 } from './StyledComponents'
 
 const IconWrapper = styled.span`
@@ -37,7 +38,7 @@ export const ProfileInfo = () => {
           </p>
         </InsideContainer>
       </ArticleOptionTwo>
-      <ArticleOptionOne>
+      <ArticleOptionFour>
         <InsideContainer>
           <ColoredTitleWrapper>
             <ColoredTitle>Tech</ColoredTitle>
@@ -47,7 +48,7 @@ export const ProfileInfo = () => {
             Accessibility, Mob- and pair-programming, Github
           </p>
         </InsideContainer>
-      </ArticleOptionOne>
+      </ArticleOptionFour>
     </>
   )
 }

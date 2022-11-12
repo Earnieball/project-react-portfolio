@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import {
   ColoredTitle,
-  ArticleOptionOne,
   InsideContainer,
-  ColoredTitleWrapper
+  ColoredTitleWrapper,
+  ArticleOptionTwo
 } from './StyledComponents'
 
 const ArticleImg = styled.img`
@@ -32,7 +32,7 @@ const Date = styled.h4`
 
 export const MyThoughts = () => {
   return (
-    <ArticleOptionOne>
+    <ArticleOptionTwo>
       <InsideContainer>
         <ColoredTitleWrapper>
           <ColoredTitle>My thoughts</ColoredTitle>
@@ -65,6 +65,6 @@ export const MyThoughts = () => {
           </a>
         </ArticleWrapper>
       </InsideContainer>
-    </ArticleOptionOne>
+    </ArticleOptionTwo>
   )
 }

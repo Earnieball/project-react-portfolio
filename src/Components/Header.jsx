@@ -26,6 +26,8 @@ const HeaderBackground = styled.header`
     margin: 10px 0px 0 30px;
   }
   
+
+
 `
 
 const IconWrapper = styled.div`
@@ -46,13 +48,28 @@ const IconWrapper = styled.div`
 `
 const ProfileImage = styled.img`
     position:absolute;
-    width: 250px;
+    width: 190px;
     margin: 50px;
-    right: 300px;
-    top: 260px;
+    right: -20px;
+    top: 230px;
     border-radius: 50%;
-    border: 2px solid #ffffff;
-    `
+    border: 4px solid #ffffff;
+    @media (min-width: 770px) {
+    
+    }
+  
+  @media (min-width: 900px) {
+      
+      right: 10%;
+      width: 230px;
+  } 
+   @media (min-width: 1200px) {
+      right: 15%;
+  }
+  @media (min-width: 1600px) {
+      right: 20%;
+  }
+ `;
 
 const Presentation = styled.section`
     margin-top: 20px;
@@ -111,7 +128,7 @@ export const Header = () => {
         </Presentation>
 
       </HeaderBackground>
-      <ProfileImage src={ProfilePicture} />
+      <ProfileImage id="mypicture" src={ProfilePicture} alt="profile" />
     </>
   )
 }

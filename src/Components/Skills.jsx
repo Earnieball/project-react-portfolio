@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {
   ColoredTitle,
   InsideContainer,
-  ArticleOptionTwo,
+  ArticleOptionOne,
   ColoredTitleWrapper
 } from './StyledComponents'
 
@@ -37,7 +37,7 @@ const SkillsBox = styled.div`
 
 export const Skills = () => {
   return (
-    <ArticleOptionTwo>
+    <ArticleOptionOne>
       <InsideContainer>
         <ColoredTitleWrapper>
           <ColoredTitle>Skills</ColoredTitle>
@@ -86,6 +86,6 @@ export const Skills = () => {
           </SkillsBox>
         </SkillsWrapper>
       </InsideContainer>
-    </ArticleOptionTwo>
+    </ArticleOptionOne>
   )
 }

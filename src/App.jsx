@@ -7,6 +7,7 @@ import { MyThoughts } from './Components/MyThoughts'
 import { Skills } from './Components/Skills'
 import { More } from './Components/More'
 import { Footer } from './Components/Footer'
+import { ProjectList } from './Components/ProjectList'
 
 const MainContainer = styled.div`
   display: flex;
@@ -23,6 +24,7 @@ export const App = () => {
       <MainContainer>
         <ProfileInfo />
         <MainProjects />
+        <ProjectList />
         <MyThoughts />
         <Skills />
         <More />

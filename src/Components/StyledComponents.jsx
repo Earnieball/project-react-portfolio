@@ -1,16 +1,6 @@
 import styled from 'styled-components'
 
 export const ArticleOptionOne = styled.article`
-  text-align: center;
-  padding: 50px 0 50px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  p {
-    font-size: 20px;
-  }
-`
-export const ArticleOptionTwo = styled.article`
   padding: 50px 0 50px 0;
   background-color: #f4f4f4;
   display: flex;
@@ -21,6 +11,40 @@ export const ArticleOptionTwo = styled.article`
     font-size: 20px;
   }
 `
+
+export const ArticleOptionTwo = styled.article`
+text-align: center;
+padding: 50px 0 50px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+p {
+  font-size: 20px;
+}
+`
+export const ArticleOptionThree = styled.article`
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  p {
+    font-size: 20px;
+  }
+`
+export const ArticleOptionFour = styled.article`
+text-align: center;
+background-color: #f4f4f4;
+width: 100%;
+padding: 50px 0 50px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+p {
+  font-size: 20px;
+}
+`
+
 export const InsideContainer = styled.div`
   width: 80%;
 `

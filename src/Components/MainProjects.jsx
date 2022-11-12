@@ -5,12 +5,14 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import data from '../Assets/ProjectsData.json'
 import {
   InsideContainer,
-  ArticleOptionTwo,
+
   ColoredTitle,
-  ColoredTitleWrapper
+  ColoredTitleWrapper,
+  ArticleOptionThree
 } from './StyledComponents'
 
 const CardInfo = styled.div`
+
   padding-bottom: 30px;
   width: 100%;
   word-break: break-all;
@@ -85,7 +87,7 @@ const DetailsWrapper = styled.div`
 
 export const MainProjects = () => {
   return (
-    <ArticleOptionTwo>
+    <ArticleOptionThree>
       <InsideContainer>
         <ColoredTitleWrapper>
           <ColoredTitle>Featured Projects</ColoredTitle>
@@ -127,6 +129,6 @@ export const MainProjects = () => {
           ))}
         </CardContainer>
       </InsideContainer>
-    </ArticleOptionTwo>
+    </ArticleOptionThree>
   )
 }
