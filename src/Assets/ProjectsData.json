@@ -1,8 +1,8 @@
 [
     {
       "title": "Guess Who",
-      "id": "9",
-      "image": "https://imgbox.com/fwNa3jMN",
+      "id": "1",
+      "image": "https://raw.githubusercontent.com/Earnieball/project-portfolio/main/assets/question-2.jpg",
       "netlify": "https://benevolent-cucurucho-37eea2.netlify.app/",
       "github": "https://github.com/Earnieball/project-guess-who",
       "description": "A guessing game made in Javascript.",
@@ -10,29 +10,29 @@
     },
     {
       "title": "Chatbot",
-      "id": "10",
-      "image": "https://thumbs2.imgbox.com/a7/c5/fwNa3jMN_t.jpg",
+      "id": "2",
+      "image": "https://raw.githubusercontent.com/Earnieball/project-portfolio/main/assets/chatbot2.jpg",
       "netlify": "https://monumental-dango-9cb66a.netlify.app/",
       "github": "https://github.com/Earnieball/project-chatbot",
       "description": "Chatbot made in JavaScript",
       "tools": ["JavaScript", "HTML", "CSS"]
     },
     {
-      "title": "Business site",
-      "id": "11",
+      "title": "Quiz",
+      "id": "3",
       "image": "",
-      "netlify": "https://lustrous-beijinho-b1994a.netlify.app/",
-      "github": "https://github.com/Earnieball/project-business-site",
-      "description": "Our first group-project.",
-      "tools": ["HTML", "CSS", "JavaScript"]
+      "netlify": "https://teal-melomakarona-38ccaf.netlify.app/",
+      "github": "https://github.com/Earnieball/project-redux-quiz",
+      "description": "A group-project made to practice hooks 'useDispatch and useSelector' in redux",
+      "tools": ["Redux", "CSS", "JavaScript"]
     },
     {
-      "title": "News Site - My application for Technigo",
-      "id": "12",
-      "image": "https://i.imgur.com/a/c38NKyA",
-      "netlify": "https://62eff0400e3e5c33a68b162a--legendary-clafoutis-55c090.netlify.app/",
-      "github": "https://github.com/Earnieball/project-news-site",
-      "description": "A basic app done in HTML and CSS",
+      "title": "Happy Thoughts",
+      "id": "4",
+      "image": "",
+      "netlify": "https://hilarious-faun-8e1de5.netlify.app/",
+      "github": "https://github.com/Earnieball/project-happy-thoughts",
+      "description": "A messenger-like app where we work with an API to both receive and send data.",
       "tools": ["HTML", "CSS"]
     }
   ]
