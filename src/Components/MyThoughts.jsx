@@ -37,7 +37,7 @@ export const MyThoughts = () => {
         <ColoredTitleWrapper>
           <ColoredTitle>My thoughts</ColoredTitle>
         </ColoredTitleWrapper>
-        <ArticleImg src="https://thumbs2.imgbox.com/e3/97/m789AdGd_t.jpg" />
+        <ArticleImg src="https://raw.githubusercontent.com/Earnieball/project-react-portfolio/master/src/Assets/genius.jpg" />
         <ArticleWrapper>
           <Date>Oct 17</Date>
           <a

@@ -55,8 +55,8 @@ export const ProjectList = () => {
               href=""
               target="_blank"
               rel="noreferrer">
-              <h2 className="project-title">CHATBOT</h2>
-              <div className="text">- A project focusing on basic javascript.<h2 className="project-title"> &gt;&gt;</h2></div>
+              <h2 className="project-title">TODOS</h2>
+              <div className="text">- Creating a to-do list with react/redux.<h2 className="project-title"> &gt;&gt;</h2></div>
             </a>
           </div>
         </div>
