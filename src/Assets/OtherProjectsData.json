@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Labyrinth",
+        "id": "1",
+        "image": "",
+        "netlify": "https://kimhannanick-project-labyrinth.netlify.app/",
+        "github": "https://github.com/Technigo/project-labyrinth/pull/179",
+        "description": "A navigation game made in redux.",
+        "tools": ["Thump", "CSS", "JavaScript", "Redux"]
+      },
+      {
+        "title": "To-do",
+        "id": "2",
+        "image": "",
+        "netlify": "https://stalwart-custard-64e424.netlify.app/",
+        "github": "https://github.com/Earnieball/project-todos",
+        "description": "A to-do list made in redux.",
+        "tools": ["Redux", "CSS", "JavaScript"]
+      },
+      {
+        "title": "Survey",
+        "id": "3",
+        "image": "",
+        "netlify": "https://benevolent-kangaroo-28e125.netlify.app/",
+        "github": "https://github.com/Earnieball/project-survey",
+        "description": "A guessing game made in Javascript.",
+        "tools": ["React", "CSS", "JavaScript"]
+      },
+      {
+        "title": "Music Releases",
+        "id": "4",
+        "image": "",
+        "netlify": "https://schpoutefi.netlify.app/",
+        "github": "https://github.com/Earnieball/project-music-releases",
+        "description": "Fetching the latest music releases from an API",
+        "tools": ["React", "CSS", "JavaScript"]
+      } ,
+      {
+        "title": "Weather app",
+        "id": "5",
+        "image": "",
+        "netlify": "https://fint-vader.netlify.app/",
+        "github": "https://github.com/Earnieball/project-weather-app",
+        "description": "A weather app fetching data from an API",
+        "tools": ["HTML", "CSS", "JavaScript"]
+      } 
+    ]

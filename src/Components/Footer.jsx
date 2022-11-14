@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import BackGroundImage from '../Assets/abstract.jpg'
+import BackGroundImage from '../Assets/images/abstract.jpg'
 
 const FooterBackground = styled.section`
   width: 100%;

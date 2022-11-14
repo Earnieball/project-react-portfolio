@@ -69,3 +69,21 @@ export const ColoredTitleWrapper = styled.div`
   justify-content: center;
   margin: 10px;
 `
+
+export const Tag = styled.span`
+  color: #fff;
+  background-color: #c70251;
+  border: none;
+  font-size: 10px;
+  padding: 4px;
+  margin-right: 10px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+    rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+    rgb(0 0 0 / 9%) 0px -3px 5px;
+`
+export const TagContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+`

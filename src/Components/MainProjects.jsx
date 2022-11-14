@@ -5,7 +5,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import data from '../Assets/ProjectsData.json'
 import {
   InsideContainer,
-
+  Tag,
+  TagContainer,
   ColoredTitle,
   ColoredTitleWrapper,
   ArticleOptionThree
@@ -20,24 +21,6 @@ const CardInfo = styled.div`
     width: 100%;
     display: block;
   }
-`
-
-const Tag = styled.span`
-  color: #fff;
-  background-color: #c70251;
-  border: none;
-  font-size: 10px;
-  padding: 4px;
-  margin-right: 10px;
-  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
-    rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
-    rgb(0 0 0 / 9%) 0px -3px 5px;
-`
-const TagContainer = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 5px;
 `
 
 const CardContainer = styled.div`

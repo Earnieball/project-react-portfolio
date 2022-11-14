@@ -1,10 +1,17 @@
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import styled from 'styled-components/macro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import {
   ArticleOptionOne,
   ColoredTitle,
-  ColoredTitleWrapper
+  ColoredTitleWrapper,
+  Tag
 } from './StyledComponents'
+import data from '../Assets/OtherProjectsData.json'
 
 const ProjectListStyle = styled.div`
   
@@ -13,10 +20,7 @@ const ProjectListStyle = styled.div`
     display: flex;
     justify-content: center;
   }
-  .other-projects-wrapper{
-    padding: 15px 0px 15px 0px;
-    margin: 0px;
-  }
+
   .project-title{
     display: inline;
   }
@@ -27,7 +31,48 @@ const ProjectListStyle = styled.div`
     display: inline;
     margin: 30px 0;
   } 
-`;
+`
+const OtherProjectsDisplay = styled.section`
+padding: 10px 0 10px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+background-color: white;
+
+a {
+    color: black;
+
+    :link {
+      text-decoration: none;
+    }
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+      text-decoration: underline;
+    }
+    
+  }
+
+
+`
+const OverLinedHeading = styled.h2`
+text-align: center;
+
+`
+const ProjectText = styled.p`
+text-align: center;
+`
+
+const TagContainer = styled.div`
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+gap: 5px;
+padding: 5%;
+`
+
 export const ProjectList = () => {
   return (
     <ArticleOptionOne>
@@ -35,31 +80,32 @@ export const ProjectList = () => {
         <ColoredTitleWrapper>
           <ColoredTitle>OTHER PROJECTS</ColoredTitle>
         </ColoredTitleWrapper>
-
-        <div className="title-other-projects-wrapper" />
-        <div className="other-projects-wrapper">
-          <div className="project-row">
+        {data.map((item) =>
+          <OtherProjectsDisplay key={item.id}>
             <a
-              className="link-other-projects"
-              href=""
+              href={item.netlify}
               target="_blank"
-              rel="noreferrer">
-              <h2 className="project-title">MUSIC RELEASES</h2>
-              <div className="text">- A project in React, fetching data from an API. <h2 className="project-title"> &gt;&gt;</h2></div>
+              rel="noreferrer"
+              role="button">
+              <OverLinedHeading>{item.title}</OverLinedHeading>
+              <ProjectText>{item.description}</ProjectText>
             </a>
-          </div>
-
-          <div className="project-row">
             <a
-              className="link-other-projects"
-              href=""
+              href={item.github}
+              alt="project landingpage"
               target="_blank"
-              rel="noreferrer">
-              <h2 className="project-title">TODOS</h2>
-              <div className="text">- Creating a to-do list with react/redux.<h2 className="project-title"> &gt;&gt;</h2></div>
+              rel="noopener noreferrer">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="3x"
+                color="#212427" />
             </a>
-          </div>
-        </div>
+            <TagContainer>
+              {item.tools.map((tag) => (
+                <Tag key={tag}>{tag}</Tag>
+              ))}
+            </TagContainer>
+          </OtherProjectsDisplay>)}
       </ProjectListStyle>
     </ArticleOptionOne>
   );

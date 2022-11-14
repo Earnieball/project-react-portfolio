@@ -6,8 +6,8 @@ import {
   faLinkedin,
   faStackOverflow
 } from '@fortawesome/free-brands-svg-icons'
-import BackGroundImage from '../Assets/abstract.jpg'
-import ProfilePicture from '../Assets/profile.jpg'
+import BackGroundImage from '../Assets/images/abstract.jpg'
+import ProfilePicture from '../Assets/images/profile.jpg'
 
 const HeaderBackground = styled.header`
   background-image: url(${BackGroundImage});
