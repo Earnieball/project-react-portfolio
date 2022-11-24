@@ -20,7 +20,7 @@
     {
       "title": "Quiz",
       "id": "3",
-      "image": "https://raw.githubusercontent.com/Earnieball/project-react-portfolio/master/src/Assets/quiz.jpg",
+      "image": "https://raw.githubusercontent.com/Earnieball/project-react-portfolio/master/src/Assets/images/quiz.jpg",
       "netlify": "https://teal-melomakarona-38ccaf.netlify.app/",
       "github": "https://github.com/Earnieball/project-redux-quiz",
       "description": "A group-project made to practice hooks 'useDispatch and useSelector' in redux",
@@ -29,7 +29,7 @@
     {
       "title": "Happy Thoughts",
       "id": "4",
-      "image": "https://raw.githubusercontent.com/Earnieball/project-react-portfolio/master/src/Assets/message.jpg",
+      "image": "https://raw.githubusercontent.com/Earnieball/project-react-portfolio/master/src/Assets/images/message.jpg",
       "netlify": "https://hilarious-faun-8e1de5.netlify.app/",
       "github": "https://github.com/Earnieball/project-happy-thoughts",
       "description": "A messenger-like app where we work with an API to both receive and send data.",
